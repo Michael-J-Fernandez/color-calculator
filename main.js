@@ -5,9 +5,9 @@ const prompt = require('prompt-sync')({ sigint: true });
 console.log("Would you like to combine or deconstruct a color?");
 
 let colorMethod = Number(prompt("Type in the number for the method: 1-Combine 2-Deconstruct: > "));
-let color
-let color1
-let color2
+let color = ""
+let color1 = ""
+let color2 = ""
 
 
 if (colorMethod === 1) {
